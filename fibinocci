@@ -1,0 +1,6 @@
+# Generate and print Fibonacci sequence up to the nth term
+n <- 10  # Specify the number of terms you want to generate
+for (i in 1:n) {
+  result <- fibonacci(i)
+  cat(result, " ")
+}
